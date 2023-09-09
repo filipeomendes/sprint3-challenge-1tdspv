@@ -7,17 +7,13 @@ export default function Cabecalho(){
             <div className="Logo porto">
                 <img src={logotipo1} alt="Logotipo Porto Seguro-SOS" />
             </div>
-            <div className="Menu">
+            <div className="menu">
                 <nav>
-                    <li>
-                        <Link to="/home">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/maps">Solicitação</Link>
-                    </li>
-                    <li>
-                        <Link to="/contato">Contato</Link>
-                    </li>
+                    <Link to="/home">Home</Link>
+                    <span> | </span>
+                    <Link to="/maps">Solicitação</Link>
+                    <span> | </span>
+                    <Link to="/contato">Contato</Link>
                 </nav>
             </div>
         </header>
