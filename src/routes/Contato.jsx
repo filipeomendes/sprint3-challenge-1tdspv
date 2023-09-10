@@ -2,8 +2,8 @@ export default function Contato() {
     document.title = "Contato";
     return (
       <main>
-        <div className="titulo-contato">
-          <h1>teste</h1>
+        <div className="titulo">
+          <h1>Contato</h1>
         </div>
         <div className="membros">
           <h2>Fernando Paparelli Aracena - rm551022</h2>
