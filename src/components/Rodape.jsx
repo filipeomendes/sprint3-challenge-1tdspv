@@ -9,9 +9,9 @@ export default function Rodape(){
             <section className="conteudo-rodape">
                 <div className="redes-sociais-logos">
                     <nav className="redes-sociais-nav">
-                        <a href="https://github.com/filipeomendes/sprint3-challenge-1tdspv"><img src={logoGithub} alt="Logo preto do Github" /></a>
-                        <a href="https://www.instagram.com/complex.wrld/"><img src={logoInstagram} alt="Logo preto do Instagram" /></a>
-                        <a href="https://www.facebook.com"> <img src={logoFacebook} alt="Logo preto do Facebook" /></a>
+                        <a href="https://github.com/filipeomendes/sprint3-challenge-1tdspv" target='blank'><img src={logoGithub} alt="Logo preto do Github" /></a>
+                        <a href="https://www.instagram.com/complex.wrld/" target='blank'><img src={logoInstagram} alt="Logo preto do Instagram" /></a>
+                        <a href="https://www.facebook.com" target='blank'> <img src={logoFacebook} alt="Logo preto do Facebook" /></a>
                     </nav>
                 </div>
                 <div className='copyright'>
