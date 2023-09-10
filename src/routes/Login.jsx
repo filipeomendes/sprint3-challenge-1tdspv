@@ -1,4 +1,5 @@
 import fotoGuincho from '../assets/guincho.svg'
+import { Link } from 'react-router-dom';
 
 export default function Login() {
     document.title = "Login";
@@ -23,6 +24,12 @@ export default function Login() {
               <label htmlFor="senha">Senha</label>
               <input type="password" id="senha" placeholder="sprint3"/>
               <span id="login-error"> </span>
+            </div>
+            <div>
+              <p>Esqueceu a senha?</p>
+            </div>
+            <div className='botaoo'>
+                <Link to='/home'><button type='submit'>Entrar</button></Link>
             </div>
           </form>
         </section>
