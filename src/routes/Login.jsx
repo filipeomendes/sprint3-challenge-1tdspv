@@ -6,7 +6,7 @@ export default function Login() {
     return (
       <main>
         <section className="texto-login">
-          <div className="titulo-login">
+          <div className="titulo">
             <h1>Login</h1>
           </div>
           <div className="subtitulo-login">
