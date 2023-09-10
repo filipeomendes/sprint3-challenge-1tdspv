@@ -2,7 +2,7 @@ export default function Home() {
     document.title = "Home";
     return (
       <main>
-        <div className="titulo-home">
+        <div className="titulo">
           <h1>Home</h1>
         </div>
         <div>
