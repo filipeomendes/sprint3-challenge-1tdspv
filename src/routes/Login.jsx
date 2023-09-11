@@ -4,16 +4,14 @@ import { Link } from 'react-router-dom';
 export default function Login() {
     document.title = "Login";
     return (
-      <main>
+      <main className='login'>
         <section className="texto-login">
-          <div className="titulo">
+          <div className="titulo-login">
             <h1>Login</h1>
           </div>
           <div className="subtitulo-login">
             <h2>Solicite o resgate do seu veículo</h2>
           </div>
-        </section>
-        <section className='secao-formulario'>
           <form action="" id="form-login" className="form">
             <div className="form-control">
               <label htmlFor="login">Login</label>

@@ -26,3 +26,20 @@
 .membros p{
   margin-top: 0.8rem;
 }
+
+
+.titulo-login{
+  display: flex;
+  justify-content: left;
+}
+.texto-login{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.login{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
