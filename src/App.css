@@ -33,6 +33,7 @@
   display: flex;
   justify-content: left;
   flex-direction: column;
+  margin-left: 10rem;
 }
 
 .subtitulo-login{
@@ -48,7 +49,7 @@
 
 .foto-guincho{
   background-color: #0046C0;
-  padding: 4.1rem 10rem 4.1rem 10rem;
+  padding: 9.3rem 10rem 9.3rem 10rem;
 }
 
 .form {
