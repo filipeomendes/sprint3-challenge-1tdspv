@@ -1,15 +1,15 @@
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Alinhar verticalmente no centro */
-    padding: 10px 20px; /* Adicionar algum espaço interno para espaçamento */
-    background-color: #ffffff; /* Cor de fundo do cabeçalho (opcional) */
-    color: #0046C0; /* Cor do texto (opcional) */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e4e4e4;
+    color: #0046C0;
 }
   
 .Logo {
     display: flex;
-    align-items: center; /* Alinhar verticalmente no centro */
+    align-items: center;
 }
   
 .menu {
@@ -17,12 +17,14 @@ header {
 }
   
 .menu a {
-    text-decoration: none; /* Remover sublinhado dos links (opcional) */
+    text-decoration: none;
     color: #0046C0;
-    padding: 3rem; /* Cor dos links (opcional) */
+    padding: 3rem;
+    font-weight: 800;
+    font-size: 1.2rem;
 }
   
 .menu a:hover {
-    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse (opcional) */
+    text-decoration: underline;
 }
   
