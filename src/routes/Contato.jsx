@@ -2,7 +2,7 @@ export default function Contato() {
     document.title = "Contato";
     return (
       <main>
-        <div className="titulo">
+        <div className="titulo-contato">
           <h1>Contato</h1>
         </div>
         <div className="membros">
