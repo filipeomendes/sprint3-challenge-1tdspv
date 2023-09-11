@@ -6,7 +6,7 @@ import App from './App.jsx'
 import './index.css'
 
 import Login from './routes/Login.jsx'
-import Home from './routes/Home.jsx'
+import Sobre from './routes/Sobre.jsx'
 import Maps from './routes/Maps.jsx'
 import Solicitacao from './routes/Solicitacao.jsx'
 import Status from './routes/Status.jsx'
@@ -24,10 +24,6 @@ const router = createBrowserRouter([
         element: <Login/>
       },
       {
-        path: "/home",
-        element: <Home/>
-      },
-      {
         path: "/maps",
         element: <Maps/>
       },
@@ -38,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/status",
         element: <Status/>
+      },
+      {
+        path: "/sobre",
+        element: <Sobre/>
       },
       {
         path: "/contato",
