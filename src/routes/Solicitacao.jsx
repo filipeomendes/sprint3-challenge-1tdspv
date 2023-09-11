@@ -5,6 +5,9 @@ export default function Solicitacao() {
         <div className="titulo">
             <h1>Solicitar Resgate</h1>
         </div>
+        <div>
+          <form action="" id="form-solicitacao"></form>
+        </div>
       </main>
     )
   }
