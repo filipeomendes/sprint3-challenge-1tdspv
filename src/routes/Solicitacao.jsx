@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Solicitacao() {
     document.title = "Solicitacao";
     return (
@@ -42,6 +44,16 @@ export default function Solicitacao() {
             <div>
               <label htmlFor="obs"></label>
               <input type="text" id="obs" placeholder="*Observações"/>
+            </div>
+            <div>
+              <Link to="/maps">
+                <button type="submite">Votlar</button>
+              </Link>
+            </div>
+            <div>
+              <Link to="/status">
+                <button type="submite">Solicitar</button>
+              </Link>
             </div>
           </form>
         </section>
