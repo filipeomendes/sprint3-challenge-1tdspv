@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinhar verticalmente no centro */
+    padding: 10px 20px; /* Adicionar algum espaço interno para espaçamento */
+    background-color: #ffffff; /* Cor de fundo do cabeçalho (opcional) */
+    color: #0046C0; /* Cor do texto (opcional) */
+}
+  
+.Logo {
+    display: flex;
+    align-items: center; /* Alinhar verticalmente no centro */
+}
+  
+.menu {
+    display: flex;
+}
+  
+.menu a {
+    text-decoration: none; /* Remover sublinhado dos links (opcional) */
+    color: #0046C0;
+    padding: 3rem; /* Cor dos links (opcional) */
+}
+  
+.menu a:hover {
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse (opcional) */
+}
+  
