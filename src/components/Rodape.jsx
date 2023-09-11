@@ -1,6 +1,7 @@
 import logoFacebook from '../assets/facebook.png'
 import logoGithub from '../assets/github.png'
 import logoInstagram from '../assets/instagram.png'
+import './Rodape.css'
 
 export default function Rodape(){
 
@@ -11,7 +12,7 @@ export default function Rodape(){
                     <nav className="redes-sociais-nav">
                         <a href="https://github.com/filipeomendes/sprint3-challenge-1tdspv" target='blank'><img src={logoGithub} alt="Logo preto do Github" /></a>
                         <a href="https://www.instagram.com/complex.wrld/" target='blank'><img src={logoInstagram} alt="Logo preto do Instagram" /></a>
-                        <a href="https://www.facebook.com" target='blank'> <img src={logoFacebook} alt="Logo preto do Facebook" /></a>
+                        <a href="https://www.facebook.com" target='blank'><img src={logoFacebook} alt="Logo preto do Facebook" /></a>
                     </nav>
                 </div>
                 <div className='copyright'>
