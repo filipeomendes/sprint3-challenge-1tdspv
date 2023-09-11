@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import logotipo1 from '../assets/logotipo1.svg'
+import './Cabecalho.css'
 
 export default function Cabecalho(){
     return(

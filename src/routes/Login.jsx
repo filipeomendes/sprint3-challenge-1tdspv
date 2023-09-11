@@ -14,7 +14,7 @@ export default function Login() {
           </div>
         </section>
         <section className='secao-formulario'>
-          <form id="form" className="form">
+          <form action="" id="form-login" className="form">
             <div className="form-control">
               <label htmlFor="login">Login</label>
               <input type="text" id="login" placeholder="sprint3@challenge.com"/>

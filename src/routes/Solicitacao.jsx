@@ -1,8 +1,50 @@
 export default function Solicitacao() {
     document.title = "Solicitacao";
     return (
-      <div className="titulo">
-          <h1>Solicitar Resgate</h1>
-      </div>
+      <main>
+        <section className="titulo">
+            <h1>Solicitar Resgate do Veículo</h1>
+        </section>
+        <section>
+          <form action="" id="form-solicitacao">
+            <div>
+              <label htmlFor="modelo"></label>
+              <input type="text" id="modelo" placeholder="*Modelo do veículo"/>
+            </div>
+            <div>
+              <label htmlFor="carga"></label>
+              <input type="text" id="carga" placeholder="*Peso da carga"/>
+            </div>
+            <div>
+              <label htmlFor="situacao"></label>
+              <input type="text" id="situacao" placeholder="*Situação do resgate"/>
+            </div>
+            <div>
+              <label htmlFor="apolice"></label>
+              <input type="text" id="apolice" placeholder="*Número da apolice"/>
+            </div>
+            <div>
+              <label htmlFor="cep"></label>
+              <input type="text" id="cep" placeholder="*CEP"/>
+            </div>
+            <div>
+              <label htmlFor="comprimento"></label>
+              <input type="text" id="comprimento" placeholder="*Comprimento do veículo"/>
+            </div>
+            <div>
+              <label htmlFor="altura"></label>
+              <input type="text" id="altura" placeholder="*Altura do veículo"/>
+            </div>
+            <div>
+              <label htmlFor="peso"></label>
+              <input type="text" id="peso" placeholder="*Peso do veículo"/>
+            </div>
+            <div>
+              <label htmlFor="obs"></label>
+              <input type="text" id="obs" placeholder="*Observações"/>
+            </div>
+          </form>
+        </section>
+      </main>
     )
   }
