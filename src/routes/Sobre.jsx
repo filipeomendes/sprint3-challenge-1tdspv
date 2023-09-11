@@ -1,9 +1,9 @@
-export default function Home() {
-    document.title = "Home";
+export default function Sobre() {
+    document.title = "Sobre";
     return (
       <main>
         <div className="titulo">
-          <h1>Home</h1>
+          <h1>Sobre</h1>
         </div>
         <div>
           <h2>A historia</h2>

@@ -10,9 +10,9 @@ export default function Cabecalho(){
             </div>
             <div className="menu">
                 <nav>
-                    <Link to="/home">Home</Link>
-                    <span> | </span>
                     <Link to="/maps">Solicitação</Link>
+                    <span> | </span>
+                    <Link to="/sobre">Sobre</Link>
                     <span> | </span>
                     <Link to="/contato">Contato</Link>
                 </nav>
