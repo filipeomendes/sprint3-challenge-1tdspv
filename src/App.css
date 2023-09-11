@@ -28,18 +28,84 @@
 }
 
 
-.titulo-login{
-  display: flex;
-  justify-content: left;
-}
+
 .texto-login{
   display: flex;
   justify-content: left;
   flex-direction: column;
+  margin-left: 10rem;
+}
+
+.subtitulo-login{
+  margin-bottom: 3rem;
 }
 
 .login{
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+}
+
+.foto-guincho{
+  background-color: #0046C0;
+  padding: 4.1rem 10rem 4.1rem 10rem;
+}
+
+/* Estilização do formulário */
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form{
+  margin-left: 40rem;
+}
+
+.form-control {
+  margin-bottom: 3rem;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.form-control input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+p {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+p:hover{
+  text-decoration: underline;
+}
+
+/* Estilização do botão */
+.botaoo {
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
 }

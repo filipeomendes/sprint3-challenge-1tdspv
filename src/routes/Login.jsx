@@ -6,9 +6,6 @@ export default function Login() {
     return (
       <main className='login'>
         <section className="texto-login">
-          <div className="titulo-login">
-            <h1>Login</h1>
-          </div>
           <div className="subtitulo-login">
             <h2>Solicite o resgate do seu veículo</h2>
           </div>
@@ -23,11 +20,11 @@ export default function Login() {
               <input type="password" id="senha" placeholder="sprint3"/>
               <span id="login-error"> </span>
             </div>
+            <div className='botaoo'>
+                <Link to='/maps'><button type='submit'>Entrar</button></Link>
+            </div>
             <div>
               <p>Esqueceu a senha?</p>
-            </div>
-            <div className='botaoo'>
-                <Link to='/home'><button type='submit'>Entrar</button></Link>
             </div>
           </form>
         </section>
