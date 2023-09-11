@@ -46,8 +46,13 @@ export default function Solicitacao() {
               <input type="text" id="obs" placeholder="*Observações"/>
             </div>
             <div>
+              <Link to="/maps">
+                <button type="submite">Votlar</button>
+              </Link>
+            </div>
+            <div>
               <Link to="/status">
-                <button type="submite">Seguinte</button>
+                <button type="submite">Solicitar</button>
               </Link>
             </div>
           </form>
