@@ -64,8 +64,8 @@ main{
 
 .foto-guincho img{
   display: flex;
-  padding: 0 10rem 0 3rem;
-  width: 45rem;
+  padding: 10rem 10rem 0 3rem;
+  width: 50rem;
   margin-right: 10rem;
   margin-left: 5rem;
 }
