@@ -6,7 +6,7 @@ export default function Error() {
       <main>
         <div>
             <h1>ERROR 404 - PÁGINA NÃO EXISTENTE!</h1>
-            <h2>Clique <Link to="/home">AQUI</Link> para voltar ao início. </h2>
+            <h2>Clique <Link to="/">AQUI</Link> para voltar ao início. </h2>
         </div>
       </main>
     )

@@ -1,0 +1,45 @@
+.secao-form{
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 15rem;
+  justify-content: center;
+}
+
+.formulario-solicitao{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.formulario-solicitao div{
+  flex: 0 0 calc(50% - 10px);
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.formulario-solicitao div:last-child {
+  margin-right: 0;
+}
+
+label {
+  display: none;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-notification {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+

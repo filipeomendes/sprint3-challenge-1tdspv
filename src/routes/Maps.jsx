@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
+import mapa from '../assets/mapa.svg'
 
 export default function Maps() {
     document.title = "Maps";
     return (
-      <main>
-        <div className="titulo">
-            <h1>Maps</h1>
-        </div>
-        <div>
-          <Link to="/maps/solicitacao">
-            <button type="submit">Seguinte</button>
-          </Link>
+      <main className="main-mapa">
+        <div className="img-mapa">
+          <img src={mapa} alt="imagem ilustrativa mapa" />
+          <div className="botao">
+            <Link to="/maps/solicitacao">
+              <button type="submit" className="botao-seguinte">Seguinte</button>
+            </Link>
+          </div>
         </div>
       </main>
     )

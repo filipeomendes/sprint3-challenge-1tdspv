@@ -2,24 +2,26 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem;
+    padding: 0rem 3rem;
     background-color: #f7f7f7;
     color: #0046C0;
 }
   
-.Logo {
+.logo-porto img{
     display: flex;
     align-items: center;
+    width: 8rem;
 }
   
 .menu {
     display: flex;
+    align-items: center;
 }
   
 .menu a {
     text-decoration: none;
     color: #0046C0;
-    padding: 3rem;
+    padding: 0.5rem 2rem;
     font-weight: 800;
     font-size: 1.2rem;
 }
