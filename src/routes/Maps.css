@@ -13,13 +13,13 @@
 .botao-seguinte{
     position: absolute;
     right: 1rem;
-    bottom: 3rem;
-    margin: 2rem;
+    bottom: 30px;
+    margin: 20px;
 }
 
 .botao-voltar{
     position: absolute;
     left: 1rem;
-    bottom: 3rem;
-    margin: 2rem;
+    bottom: 30px;
+    margin: 20px;
 }
