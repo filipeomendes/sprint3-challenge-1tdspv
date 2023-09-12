@@ -7,11 +7,11 @@ export default function Maps() {
       <main className="main-mapa">
         <div className="img-mapa">
           <img src={mapa} alt="imagem ilustrativa mapa" />
-            <div className="botao">
-              <Link to="/maps/solicitacao">
-                <button type="submit">Seguinte</button>
-              </Link>
-            </div>
+          <div className="botao">
+            <Link to="/maps/solicitacao">
+              <button type="submit" className="botao-seguinte">Seguinte</button>
+            </Link>
+          </div>
         </div>
       </main>
     )

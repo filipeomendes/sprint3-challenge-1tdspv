@@ -1,0 +1,16 @@
+.img-mapa{
+    position: relative;
+    display: inline-block;
+}
+  
+.img-mapa img{
+    max-width: 100%;
+    width: 3000px;
+    height: auto;
+}
+  
+.botao-seguinte{
+    position: absolute;
+    right: 0;
+    margin: 2rem;
+  }
