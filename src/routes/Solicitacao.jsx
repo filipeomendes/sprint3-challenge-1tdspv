@@ -7,8 +7,8 @@ export default function Solicitacao() {
         <section className="titulo">
             <h1>Solicitar Resgate do Veículo</h1>
         </section>
-        <section>
-          <form action="" id="form-solicitacao">
+        <section className="teste-form">
+          <form action="" id="form-solicitacao" className="formulario-solicitao">
             <div>
               <label htmlFor="modelo"></label>
               <input type="text" id="modelo" placeholder="*Modelo do veículo"/>
@@ -47,12 +47,12 @@ export default function Solicitacao() {
             </div>
             <div>
               <Link to="/maps">
-                <button type="submite">Votlar</button>
+                <button type="submite" className="botao-voltar">Voltar</button>
               </Link>
             </div>
             <div>
               <Link to="/status">
-                <button type="submite">Solicitar</button>
+                <button type="submite" className="botao-seguinte">Solicitar</button>
               </Link>
             </div>
           </form>

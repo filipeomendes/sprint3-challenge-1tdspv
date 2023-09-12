@@ -1,4 +1,5 @@
 @import url('./routes/Maps.css');
+@import url('./routes/Solicitacao.css');
 
 *{
   margin: 0;
@@ -18,7 +19,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .membros h2{

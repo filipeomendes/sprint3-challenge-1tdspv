@@ -6,7 +6,7 @@ export default function Cabecalho(){
     return(
         <header>
             <div className="Logo porto">
-                <Link to='/home'><img src={logotipo1} alt="Logotipo Porto Seguro-SOS" /></Link>
+                <Link to='/maps'><img src={logotipo1} alt="Logotipo Porto Seguro-SOS" /></Link>
             </div>
             <div className="menu">
                 <nav>
