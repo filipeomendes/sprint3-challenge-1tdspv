@@ -103,3 +103,23 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+
+.img-mapa{
+  position: relative;
+  display: inline-block;
+}
+
+.img-mapa img{
+  max-width: 100%;
+  width: 3000px;
+  height: auto;
+}
+
+.botao{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2rem;
+}
+
