@@ -1,18 +1,20 @@
-import { useState } from 'react'
-import './App.css'
-import { Outlet } from 'react-router-dom'
-import Cabecalho from './components/Cabecalho'
-import Rodape from './components/Rodape'
+import React from 'react';
+import './App.css';
+import { Outlet, useLocation } from 'react-router-dom';
+import Cabecalho from './components/Cabecalho';
+import Rodape from './components/Rodape';
 
 function App() {
+  const location = useLocation();
+  const isLoginPage = location.pathname === '/';
 
   return (
     <>
-      <Cabecalho/>
-      <Outlet/>
-      <Rodape/>
+      {!isLoginPage && <Cabecalho />}
+      <Outlet />
+      {!isLoginPage && <Rodape />}
     </>
-  )
+  );
 }
 
-export default App
+export default App;

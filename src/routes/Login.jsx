@@ -20,7 +20,7 @@ export default function Login() {
               <input type="password" id="senha" placeholder="sprint3"/>
               <span id="login-error"> </span>
             </div>
-            <div className='botaoo'>
+            <div className='botao'>
                 <Link to='/maps'><button type='submit'>Entrar</button></Link>
             </div>
             <div className='paragrafo-login'>

@@ -27,7 +27,7 @@ export default function Solicitacao(){
   };
 
   return (
-    <main>
+    <main className='solicitacaoo'>
       <section className="titulo">
         <h1>Solicitar Resgate do Veículo</h1>
       </section>
