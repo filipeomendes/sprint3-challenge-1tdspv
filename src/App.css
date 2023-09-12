@@ -1,6 +1,7 @@
 @import url('./routes/Maps.css');
 @import url('./routes/Solicitacao.css');
 @import url('./routes/Sobre.css');
+@import url('./routes/Status.css');
 
 *{
   margin: 0;

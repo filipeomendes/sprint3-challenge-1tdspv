@@ -17,7 +17,7 @@ export default function Cabecalho(){
                     <span> | </span>
                     <Link to="/contato">Contato</Link>
                 </nav>
-                <img src={user} alt="" />
+                <Link to="/" title="Clique aqui para fazer logout"><img src={user} alt="" /></Link>
             </div>
         </header>
     )

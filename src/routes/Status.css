@@ -1,0 +1,9 @@
+.status-foto{
+    display: flex;
+    justify-content: center;
+    margin: 10rem 0rem 10rem 0rem;
+}
+
+.status-foto img{
+    max-width: 40rem;
+}
