@@ -38,7 +38,6 @@ main{
 }
 
 
-
 .texto-login{
   display: flex;
   justify-content: left;
@@ -58,13 +57,22 @@ main{
 }
 
 .foto-guincho{
+  height: 100vh;
   background-color: #0046C0;
-  padding: 9.3rem 10rem 9.3rem 10rem;
+  align-items: center;
 }
 
-.form {
-  max-width: 400px;
-  margin: 0 auto;
+.foto-guincho img{
+  display: flex;
+  padding: 0 10rem 0 3rem;
+  width: 45rem;
+  margin-right: 10rem;
+  margin-left: 5rem;
+}
+
+.form{
+  max-width: 600px;
+  width: 600px;
   padding: 20px;
   background-color: #f3f3f3;
   border-radius: 5px;
@@ -97,7 +105,7 @@ main{
   text-decoration: underline;
 }
 
-.botaoo{
+.botao{
   text-align: center;
 }
 
@@ -115,3 +123,49 @@ button:hover{
 }
 
 
+@media (max-width: 600px){
+
+  .form{
+    max-width: 300px;
+    width: 300px;
+  }
+
+  .foto-guincho img{
+    padding: 1rem;
+    width: 15rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .solicitacaoo{
+    max-width: 100vh;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+    background-color: #f7f7f7;
+    color: #0046C0;
+  }
+  
+  .logo-porto img{
+    display: flex;
+    align-items: center;
+    width: 50rem;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #0046C0;
+    padding: 0.5rem 2rem;
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+}
