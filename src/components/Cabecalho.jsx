@@ -6,7 +6,7 @@ import './Cabecalho.css'
 export default function Cabecalho(){
     return(
         <header>
-            <div className="Logo porto">
+            <div className="logo-porto">
                 <Link to='/maps'><img src={logotipo1} alt="Logotipo Porto Seguro-SOS" /></Link>
             </div>
             <div className="menu">

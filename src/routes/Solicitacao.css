@@ -10,6 +10,7 @@
 .formulario-solicitao{
   display: flex;
   flex-wrap: wrap;
+  margin-top: 5rem;
 }
 
 .formulario-solicitao div{

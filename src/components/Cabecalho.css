@@ -7,9 +7,10 @@ header {
     color: #0046C0;
 }
   
-.Logo {
+.logo-porto img{
     display: flex;
     align-items: center;
+    width: 8rem;
 }
   
 .menu {
@@ -20,7 +21,7 @@ header {
 .menu a {
     text-decoration: none;
     color: #0046C0;
-    padding: 3rem;
+    padding: 0.5rem 2rem;
     font-weight: 800;
     font-size: 1.2rem;
 }
