@@ -1,0 +1,25 @@
+.img-mapa{
+    position: relative;
+    display: inline-block;
+}
+  
+.img-mapa img{
+    max-width: 100%;
+    width: 3000px;
+    height: auto;
+    margin-bottom: 10rem;
+}
+  
+.botao-seguinte{
+    position: absolute;
+    right: 1rem;
+    bottom: 3rem;
+    margin: 2rem;
+}
+
+.botao-voltar{
+    position: absolute;
+    left: 1rem;
+    bottom: 3rem;
+    margin: 2rem;
+}

@@ -1,0 +1,17 @@
+.conteudo-sobre{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 10rem 5rem 10rem;
+    align-items: center;
+    justify-content: left;
+}
+
+.conteudo-sobre p{
+    margin: 1rem;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
