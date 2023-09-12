@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import logotipo1 from '../assets/logotipo1.svg'
+import user from '../assets/usuario.svg'
 import './Cabecalho.css'
 
 export default function Cabecalho(){
@@ -16,6 +17,7 @@ export default function Cabecalho(){
                     <span> | </span>
                     <Link to="/contato">Contato</Link>
                 </nav>
+                <img src={user} alt="" />
             </div>
         </header>
     )
