@@ -23,7 +23,7 @@ export default function Login() {
             <div className='botaoo'>
                 <Link to='/maps'><button type='submit'>Entrar</button></Link>
             </div>
-            <div>
+            <div className='paragrafo-login'>
               <p>Esqueceu a senha?</p>
             </div>
           </form>
