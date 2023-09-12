@@ -7,7 +7,7 @@ export default function Solicitacao() {
         <section className="titulo">
             <h1>Solicitar Resgate do Veículo</h1>
         </section>
-        <section className="teste-form">
+        <section className="secao-form">
           <form action="" id="form-solicitacao" className="formulario-solicitao">
             <div>
               <label htmlFor="modelo"></label>
@@ -47,7 +47,7 @@ export default function Solicitacao() {
             </div>
             <div>
               <Link to="/maps">
-                <button type="submite" className="botao-voltar">Voltar</button>
+                <button className="botao-voltar">Voltar</button>
               </Link>
             </div>
             <div>
