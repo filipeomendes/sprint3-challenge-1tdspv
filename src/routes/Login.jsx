@@ -1,4 +1,5 @@
 import fotoGuincho from '../assets/guincho.svg'
+import logotipo1 from '../assets/logotipo1.svg'
 import { Link } from 'react-router-dom';
 
 export default function Login() {
@@ -6,6 +7,12 @@ export default function Login() {
     return (
       <main className='login'>
         <section className="texto-login">
+          <div className='logo-porto-login'>
+            <Link to="/"><img src={logotipo1} alt="Logotipo Porto Seguro-SOS" /></Link>
+          </div>
+          <div className='titulo-login'>
+            <h1>Login</h1>
+          </div>
           <div className="subtitulo-login">
             <h2>Solicite o resgate do seu veículo</h2>
           </div>

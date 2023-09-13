@@ -1,0 +1,27 @@
+Integrantes:
+	Fernando Paparelli Aracena rm551022
+	Filipe de Oliveira Mendes rm98959
+	Miron Gonçalves Martins rm551801
+	Paulo Henrique de Andrade Junior rm99714
+	Vinícius Pedro de Souza rm550907
+
+
+Link Repositório:
+https://github.com/filipeomendes/sprint3-challenge-1tdspv
+
+
+Link Vercel:
+https://vercel.com/filipeomendes/sprint3-challenge-1tdspv
+
+
+Link Figma:
+https://www.figma.com/file/AWzoHzJGJjYJAZ9c6N2Lwk/Porto-Tipografia-(Copy)?type=design&node-id=24-90&mode=design&t=NX2WihIIHWra10pr-0
+
+
+
+Nessa etapa da sprint optamos em mudar por completo o projeto do figma devido ao feedback da sprint anterior.
+Antes o prototipo do figma era apenas um site informativo sobre o problema, sugerimos uma solução, e tinha nosso contato,
+agora ajustamos para uma pagina funcional de solicitação de guinchos, adicionamos uma pagina para login, prototipo de mapa
+para solicitar o guincho de acordo com a localização do veículo, formulário para informar qual o veiculo está solicitando o
+guincho, e prototipo do status da solicitação.
+
