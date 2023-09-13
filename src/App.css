@@ -20,6 +20,7 @@ main{
   font-size: 1.5rem;
 }
 
+/* Estilização página de contato */
 .membros{
   display: flex;
   flex-direction: column;
@@ -38,6 +39,7 @@ main{
 }
 
 
+/*Estilização página de login  */
 .texto-login{
   display: flex;
   justify-content: left;
@@ -45,8 +47,21 @@ main{
   margin-left: 10rem;
 }
 
+.logo-porto-login{
+      position: absolute;
+  top: 2rem;
+  left: 10rem;
+  margin-bottom: 15rem;
+}
+
+.titulo-login{
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
 .subtitulo-login{
   margin-bottom: 3rem;
+  color: rgb(107, 107, 107);
 }
 
 .login{
@@ -58,7 +73,7 @@ main{
 
 .foto-guincho{
   height: 100vh;
-  background-color: #0046C0;
+  background-color: #183D7D;
   align-items: center;
 }
 
@@ -68,6 +83,7 @@ main{
   width: 50rem;
   margin-right: 10rem;
   margin-left: 5rem;
+  margin-left: -10rem;
 }
 
 .form{
@@ -116,29 +132,222 @@ button{
   border-radius: 3px;
   padding: 10px 20px;
   cursor: pointer;
+  width: 560px;
+  font-weight: bold;
 }
 
 button:hover{
   background-color: #0056b3;
 }
 
+@media (min-width: 1080px){
+  .titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
 
-@media (max-width: 600px){
+  /* Estilização página de contato */
+  .membros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 
+  .membros h2{
+    padding-top: 3rem;
+  }
+
+  .membros p{
+    margin-top: 0.8rem;
+  }
+
+
+  /*Estilização página de login  */
+  .texto-login{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 10rem;
+  }
+
+  .logo-porto-login{
+        position: absolute;
+    top: 2rem;
+    left: 10rem;
+    margin-bottom: 15rem;
+  }
+
+  .titulo-login{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .subtitulo-login{
+    margin-bottom: 3rem;
+    color: rgb(107, 107, 107);
+  }
+
+  .login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .foto-guincho{
+    height: 100vh;
+    background-color: #183D7D;
+    align-items: center;
+  }
+
+  .foto-guincho img{
+    display: flex;
+    padding: 10rem 10rem 0 3rem;
+    width: 50rem;
+    margin-right: 10rem;
+    margin-left: 5rem;
+    margin-left: -10rem;
+  }
+
+  .form{
+    max-width: 600px;
+    width: 600px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-control {
+    margin-bottom: 3rem;
+  }
+
+  .form-control label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+
+  .form-control input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .paragrafo-login p{
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .paragrafo-login p:hover{
+    text-decoration: underline;
+  }
+
+  .botao{
+    text-align: center;
+  }
+
+  button{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 560px;
+    font-weight: bold;
+  }
+
+  button:hover{
+    background-color: #0056b3;
+  }
+}
+
+@media (min-width: 800px){
+  .texto-login{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 10rem;
+  }
+  
+  .logo-porto-login{
+    position: absolute;
+    top: 2rem;
+    left: 10rem;
+    margin-bottom: 10rem;
+    width: 1rem;
+  }
+
+  .logo-porto-login img{
+    width: 10rem;
+  }
+  
+  .titulo-login{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitulo-login{
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .foto-guincho{
+    height: 100vh;
+    background-color: #183D7D;
+    align-items: center;
+    max-width: 33rem;
+    width: 33rem;
+  }
+  
+  .foto-guincho img{
+    display: flex;
+    padding: 5rem 5rem 0 3rem;
+    width: 36rem;
+    margin-right: 10rem;
+    margin-left: 5rem;
+    margin-left: -11rem;
+  }
+  
   .form{
     max-width: 300px;
     width: 300px;
   }
-
-  .foto-guincho img{
-    padding: 1rem;
-    width: 15rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+  
+  .form-control {
+    margin-bottom: 1rem;
   }
-
-  .solicitacaoo{
-    max-width: 100vh;
+  
+  .form-control label {
+    margin-bottom: 0.7rem;
+  }
+  
+  .paragrafo-login p{
+    margin-top: 2rem;
+    font-size: 0.8rem;
+  }
+  
+  .botao{
+    text-align: center;
+  }
+  
+  button{
+    width: 260px;
+    font-weight: bold;
   }
 
   header {
